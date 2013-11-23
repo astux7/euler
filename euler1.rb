@@ -6,11 +6,11 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 =end
 
 def sum_of_multiples_3_5(range_end)
-	sum = 0
-	1.upto(range_end) do |n| 
+  sum = 0
+  1.upto(range_end) do |n| 
 	 sum+= n if n % 3 == 0 || n % 5 == 0 
-	end
-    sum
+  end
+  sum
 end
 
 print "Sum of multiples of 3 and 5 till 1000 is ",sum_of_multiples_3_5(999), "\n"
