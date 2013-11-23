@@ -1,4 +1,4 @@
 euler
 =====
 
-euler problem solving code http://projecteuler.net/
+euler problem solving code from http://projecteuler.net/
